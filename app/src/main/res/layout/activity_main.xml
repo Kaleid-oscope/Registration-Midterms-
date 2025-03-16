@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Registration"
+        android:textStyle="bold"
+        android:layout_centerHorizontal="true"
+        android:paddingTop="100sp"
+        android:textSize="40sp"
+        android:id="@+id/reg"
+    />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="First Name"
+        android:textSize="15sp"
+        android:id="@+id/fname"
+        android:layout_below="@+id/reg"
+        android:layout_centerHorizontal="true"
+        android:paddingTop="50sp"
+        android:paddingHorizontal="165sp"
+        />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Last Name"
+        android:textSize="15sp"
+        android:id="@+id/lname"
+        android:layout_below="@+id/fname"
+        android:layout_centerHorizontal="true"
+        android:paddingTop="30sp"
+        android:paddingHorizontal="165sp"
+        />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Username"
+        android:textSize="15sp"
+        android:id="@+id/uname"
+        android:layout_below="@+id/lname"
+        android:layout_centerHorizontal="true"
+        android:paddingTop="30sp"
+        android:paddingHorizontal="170sp"
+        />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Password"
+        android:textSize="15sp"
+        android:id="@+id/pass"
+        android:layout_below="@+id/uname"
+        android:layout_centerHorizontal="true"
+        android:paddingTop="70sp"
+        android:paddingHorizontal="170sp"
+        />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Confirm Password"
+        android:textSize="15sp"
+        android:id="@+id/cpass"
+        android:layout_below="@+id/pass"
+        android:layout_centerHorizontal="true"
+        android:paddingTop="70sp"
+        android:paddingHorizontal="140sp"
+        />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Create"
+        android:textSize="20sp"
+        android:id="@+id/create"
+        android:onClick="launchSecondActivity"
+        android:layout_below="@+id/cpass"
+        android:layout_centerHorizontal="true"
+        android:backgroundTint="@color/black"
+        android:layout_marginTop="80dp"
+        />
+
+</RelativeLayout>
+
