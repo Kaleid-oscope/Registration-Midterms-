@@ -13,8 +13,27 @@
         android:textSize="20sp"
         android:layout_centerHorizontal="true"
         android:layout_centerVertical="true"
+        android:id="@+id/mess"
+        android:layout_marginTop="200dp"
         />
 
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Welcome,"
+        android:textSize="31sp"
+        android:layout_centerHorizontal="true"
+        android:layout_above="@+id/mess"
+        android:id="@+id/welcome"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/welcome"
+        android:id="@+id/editthis"
+        />
 
 
 </RelativeLayout>

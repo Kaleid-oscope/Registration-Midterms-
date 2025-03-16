@@ -84,7 +84,7 @@
         android:text="Create"
         android:textSize="20sp"
         android:id="@+id/create"
-        android:onClick="launchSecondActivity"
+        android:onClick="Register"
         android:layout_below="@+id/cpass"
         android:layout_centerHorizontal="true"
         android:backgroundTint="@color/black"
